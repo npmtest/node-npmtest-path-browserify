@@ -1,6 +1,6 @@
 # npmtest-path-browserify
 
-#### test coverage for  [path-browserify (v0.0.0)](https://github.com/substack/path-browserify)  [![npm package](https://img.shields.io/npm/v/npmtest-path-browserify.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-path-browserify) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-path-browserify.svg)](https://travis-ci.org/npmtest/node-npmtest-path-browserify)
+#### basic test coverage for  [path-browserify (v0.0.0)](https://github.com/substack/path-browserify)  [![npm package](https://img.shields.io/npm/v/npmtest-path-browserify.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-path-browserify) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-path-browserify.svg)](https://travis-ci.org/npmtest/node-npmtest-path-browserify)
 
 #### the path module from node core for browsers
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-path-browserify/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-path-browserify/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-path-browserify/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-path-browserify/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-path-browserify/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-path-browserify/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-path-browserify/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-path-browserify/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-path-browserify/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-path-browserify/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-path-browserify/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-path-browserify/build/coverage.html/index.html)
 
@@ -74,7 +74,8 @@
     "scripts": {
         "test": "tape test/*.js"
     },
-    "version": "0.0.0"
+    "version": "0.0.0",
+    "bin": {}
 }
 ```
 
